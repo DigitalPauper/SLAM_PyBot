@@ -38,7 +38,8 @@ sudo apt install python3.9
 
 These programs were built on Python 3.9.12 utilizing the Zeth's Inputs 0.5 library, Roboticia's RPLidar 0.9.2 library, and python3-serial.
 
->https://pypi.org/project/inputs/  |  https://github.com/zeth/inputs  |  https://pypi.org/project/rplidar/  |  https://github.com/Roboticia/RPLidar
+>https://pypi.org/project/inputs/   |  https://github.com/zeth/inputs
+>https://pypi.org/project/rplidar/  |  https://github.com/Roboticia/RPLidar
 
 Add the necessary packages to run the Lidar, accept custom communications over serial, and process direct controller inputs.
 ```
