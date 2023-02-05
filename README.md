@@ -52,3 +52,10 @@ Make sure to ensure that the Arduino is set to the right port in the relay code.
 ```
 ls /dev/ttyACM*
 ```
+
+
+On running the relay, if the Nano encountes the following error change the port permissions so that all users may have read write access:
+>Permission denied: '/dev/ttyACM0' could not open port
+```
+sudo chmod a+rw /dev/ttyACM0
+```
