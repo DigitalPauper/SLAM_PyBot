@@ -45,4 +45,10 @@ Add the necessary packages to run the Lidar, accept custom communications over s
 sudo apt-get install python3-serial
 pip3 install rplidar
 pip3 install inputs
+```   
+
+
+Make sure to ensure that the Arduino is set to the right port in the relay code. Check that it is plugged in and recognized. On linux it should appear as ttyAMC0 or ttyAMC1.
+```
+ls /dev/tty*
 ```
