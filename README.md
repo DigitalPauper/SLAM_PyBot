@@ -48,7 +48,7 @@ pip3 install inputs
 ```   
 
 
-Make sure to ensure that the Arduino is set to the right port in the relay code. Check that it is plugged in and recognized. On linux it should appear as ttyAMC0 or ttyAMC1.
+Make sure to ensure that the Arduino is set to the right port in the relay code. Check that it is plugged in and recognized. On linux it should appear as ttyACM0 or ttyACM1.
 ```
 ls /dev/tty*
 ```
